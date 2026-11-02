@@ -1,0 +1,14 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 I led an AI assistant for wealth management teams at US Bank, built to search over conflence docs (free text), SQL databases (structured data), and API references (Json swagger files) through one natural language interface. It is in prod, serves 600 internal users, cuts API discovery time by 90%, and saves over $1M a year in operating cost.\
+I built the backend around async FastAPI, paired with SQLAlchemy's async layer and a pool of open database connections. This let the system take on many requests at once without stalling. It is deployed on Kubernetes with HPA. I also added structured logging with trace IDs on each request, so I could follow a query across the whole stack and find where it slowed down or broke.\
+The system uses hybrid search blending BM25 keyword matching with vector search. This way, exact terms and product codes get caught by keyword match, while related ideas still surface through meaning. I also kept every answer tied to a retrieved document, so the model could not drift into a guess with no source behind it. I tracked accuracy, groundedness, and recall as the core metrics, alongside response time.\
+I also built a second RAG system at B-yond, this time on Databricks pipelines, to search 50,000+ pages of technical docs plus a Postgres database. That one also held above 90% on precision and recall, and gave me direct hands-on time with Databricks. \
+\
+My current work fits well this role well. At US Bank, I built a document intelligence platform close to Tungsten. It is application agnostic, reads many document types and formats and powered by Azure Document Intelligence and GPT-5. It pulls data out of files (text, tables and markings) and passes it into schema-based extraction further down the pipe. \
+Inside Azure AI, I have worked with various built-in models as well as trained custom models if the document layout varies a lot between documents. I also hold the Azure AI-103 certification which covers this aspect thoroughly. Together, this gives me a strong base to help shape the architecture for Fervo's document platform, and to move fast on the AI and extraction side.}

@@ -4,7 +4,7 @@ Posting: https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/AI-Arc
 
 The requirements below use the job description supplied in chat. The Workday page could not be retrieved through this environment's network policy.
 
-The archived application version is `applied_jobs/2026-11-02_cae_ai_architecture_specialist.yaml`. It is also the current `Zohaib_Aftab_CV.yaml`. The general Moderncv version is preserved in `applied_jobs/2026-11-02_general_ai_architect.yaml`.
+The latest archived application version is `applied_jobs/2026-11-01_cae_ai_architecture_specialist_v5.yaml`. It matches the current `Zohaib_Aftab_CV.yaml`. Earlier CAE and general Moderncv versions remain in `applied_jobs/`.
 
 | CAE requirement | Evidence emphasized in the application |
 | --- | --- |
@@ -12,8 +12,8 @@ The archived application version is `applied_jobs/2026-11-02_cae_ai_architecture
 | Hands-on enterprise AI deployment | US Bank production assistant: 600 users, 90% reduction in API discovery time, over $1M annual operating savings |
 | Scalable solution design and enterprise integration | Async FastAPI and SQLAlchemy services, AKS autoscaling, SQL/Swagger/Confluence/SharePoint integration, Salesforce agent workflows |
 | Data platforms, machine learning, and generative AI | Azure, Spark, Databricks, RAG, LangGraph, temporal CNNs, TensorFlow |
-| MLOps/LLMOps, lifecycle practices, and observability | CI/CD, MLflow model tracking, evaluation pipelines, accuracy/groundedness/recall/latency metrics, Langfuse, request tracing |
-| Technical leadership and enablement | Cross-functional research and engineering leadership, mentoring, reference architectures, technical proposals |
+| MLOps/LLMOps, lifecycle practices, and observability | CI/CD, MLflow model tracking, evaluation pipelines, accuracy/groundedness/recall/latency metrics, Langfuse |
+| Technical leadership and enablement | Cross-functional leadership, reference architectures, technical proposals, Great Learning/UT Austin mentoring, Johns Hopkins Agentic AI teaching, over 200 mentoring hours, 4.8/5 rating |
 | Measurable business value | Production adoption, operating savings, retrieval precision/recall, 2 commercial products, 3 patents |
 | Relevant education and cloud knowledge | Ph.D. in robotics, master's in automation, Azure deployments, Microsoft and Anthropic certifications earned in 2026 |
 | French and English | Bilingualism stated in the summary, supported by the supplied resumes |

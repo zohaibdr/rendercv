@@ -1,0 +1,90 @@
+Intro Interview 2 Eng
+
+Hello, I'm Zohaib Aftab, I am an AI specialist, and a data scientist. 
+
+I have over 13 years of professional experience with more than 8 years in the industry, starting from the most recent one, 
+
+an AI Specialist at Synechron which is a consulting company specializing in financial sector including banks and insurance, 
+
+Experience designing and debugging production python agentic systems 
+Strong system design fundamentals 
+Document intelligence, extraction and content understanding. 
+Agentic frameworks like Claude, or openai. ALSO HAVE THE CLAUDE ARCHITECT CERTIFICATION. More from Microsoft on the way. 
+
+Tracing tools: Langsmith, Langfuse and Lumenova. 
+Use AI tools for full-stack applications using react. 
+
+Handson coding. And leading teams of developers to deliver solutions. 
+
+
+I am not a software engineer by degree, I am a Mechanical Engineer who learned everything else out of passion and grit. 
+
+
+
+I worked as a Senior data scientist at B-yond, a telecom software company based out of Montreal. 
+Within it, I am part of the Exploration Squad which is in charge of exploring new research, generating ideas and implementing them in a timely manner to deliver valuable assets. Both internal and client facing. 
+My work at this company has mostly focused on developing LLM based applications integrated into existing products as well as new products. 
+
+
+Prior to that, in my role as Research Data Scientist at the National Center of Robotics and Automation, I gained extensive experience working with structured or tabular data.  I also have leadership experience there and delivered a couple of products, Managed budgets and timelines. 
+
+
+On the weekends, I do data science mentoring for a course with UT Austin which involves modules on Python programming, machine learning and Agentic engineering.  
+
+
+On the education side, I have my foundation degree in Engineering, which gives me a strong applied mathematical foundation. I then did my Masters and PhD from France, solidifying my analytical and problem-solving skills. That was also the time when I had the opportunity to work with big data and develop skills on how to handle it. 
+
+I've successfully delivered cross-functional projects. My work has also led to patents and products. 
+I've worked extensively with a range of data science tools, including Python and R for coding and analysis. In addition, I'm skilled in using popular libraries such as Pandas, Scikit-learn, TensorFlow, and Keras for machine learning and deep learning tasks. 
+In the LLM space, I have extensive handson experience with popular frameworks like langchain. 
+
+I'm organized and driven. I like to keep track of my goals and measure my progress. In my career, these qualities helped me stay committed and complete tasks ahead of time.
+
+- Blog link https://www.b-yond.com/post/transforming-telco-troubleshooting-our-journey-building-telcogpt-with-rag
+
+- Hands-on with programming and llms
+
+- Privacy concern. Local LLM models
+
+- Agile model. Iterations. Squads. Epics. Backlogs
+
+
+Questions:
+
+- Team structure and hierarchy. Reporting. 
+- ML engrs and front end support. 
+- Use cases 
+
+-----
+Why do you want to work here?
+- Financial sector 
+- No growth in current company 
+
+
+I applied for this position because I'm inspired by your company's mission to enable people make more informed decisions. I spent the last few years working with companies that have similar missions and used that time to expand my knowledge and build my skill set.
+
+What do you know about this role?
+
+From the job description, I understand that this position involves machine learning solutions for a new product. I am not sure what that is, but from the description, there is a lot of mention of NLP. 
+I might be working collaboratively with other teams and departments within the organization. 
+It mentions key technologies and methods like _________ that I am well versed in. 
+
+What type of role are you looking for?
+
+I am looking for a data science role where I can work with both structured and unstructured data. I like to be able to work on challenging problems which push the boundaries of my knowledge and require researching new methods and techniques. 
+Plus, I am good at statistical analysis, so I also like to apply those skills in interpreting the results, rather than mere prediction problems. I like a collaborative environment and a team that values innovation and data-driven decision-making. 
+
+
+
+	Why do you want this job?
+
+
+	What are you passionate about?
+
+
+
+	What are your salary expectations?
+
+
+	What management style do you prefer?
+

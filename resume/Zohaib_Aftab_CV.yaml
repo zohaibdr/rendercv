@@ -25,7 +25,7 @@ cv:
             API discovery time by 90% and saved over $1M in annual operating costs.
           - >-
             Designed Python microservices with async FastAPI, SQLAlchemy, and connection pooling; deployed
-            on Azure Kubernetes Service (AKS) with horizontal pod autoscaling and request tracing.
+            on Azure Kubernetes Service (AKS) with horizontal pod autoscaling.
           - >-
             Architected a ServiceNow incident resolution platform with defined service boundaries, reusable
             interfaces, and validation schemas, enabling engineering teams to integrate their data sources.
@@ -78,7 +78,7 @@ cv:
           Databricks
       - label: MLOps / LLMOps & observability
         details: CI/CD, GitHub Actions, GitLab pipelines, MLflow, evaluation pipelines, Langfuse,
-          LangSmith, Lumenova, request tracing
+          LangSmith, Lumenova
     Certifications:
       - name: '[Azure AI Apps and Agents Developer Associate](https://learn.microsoft.com/en-ca/users/zohaibaftab-8809/credentials/23600eba6d1a5028)'
         date: 2026
@@ -102,10 +102,17 @@ cv:
         date: 2009
     Mentoring & writing:
       - >-
-        Mentor for a course with UT Austin covering Python, machine learning, and
-        agentic engineering.
+        Teach in Johns Hopkins University's Certificate Program in Agentic AI, covering generative AI
+        foundations, single-agent design, multi-agent systems, evaluation, guardrails, and human oversight.
       - >-
-        [Transforming Telco Troubleshooting: Our Journey Building TelcoGPT with RAG](https://www.b-yond.com/post/transforming-telco-troubleshooting-our-journey-building-telcogpt-with-rag)
+        Data Science Mentor at Great Learning since 2024. Mentor experienced professionals in UT Austin's
+        PGP in Data Science and Business Analytics, covering Python, data analysis, supervised and unsupervised
+        learning, ensemble methods, model tuning, and deployment.
+      - >-
+        Conducted over 200 hours of mentoring and maintained an overall rating of 4.8 out of 5.
+      - >-
+        Write [Scalable ML Stack](https://zohaibdr.substack.com/), a Substack newsletter sharing insights
+        on enterprise-grade software applications.
   custom_connections:
     - fontawesome_icon: linkedin
       placeholder: LinkedIn
