@@ -1,0 +1,157 @@
+# yaml-language-server: $schema=../schema.json
+cv:
+  name: Zohaib Aftab, Ph.D.
+  headline: AI Architecture Specialist | Generative AI & Enterprise Solutions
+  location: Canada
+  email: zohaib@live.fr
+  phone: '+1 438 451 9966'
+  sections:
+    Summary:
+      - >-
+        AI architect and data scientist with 10+ years of experience across industry and research. Designs
+        and deploys enterprise AI, machine learning, and generative AI solutions on Azure. Combines hands-on
+        engineering with reference architecture design, cross-functional technical leadership, and MLOps/LLMOps
+        practices. Ph.D. in robotics; bilingual in French and English.
+    Experience:
+      - company: Synechron
+        position: Specialist - AI
+        start_date: 2024-09
+        end_date: present
+        summary: AI solution architecture and delivery for US Bank wealth and asset management.
+        highlights:
+          - >-
+            Led a production generative AI assistant integrating SQL, Swagger API references, Confluence,
+            and SharePoint through retrieval-augmented generation (RAG). Adopted by 600 users, it reduced
+            API discovery time by 90% and saved over $1M in annual operating costs.
+          - >-
+            Designed Python microservices with async FastAPI, SQLAlchemy, and connection pooling; deployed
+            on Azure Kubernetes Service (AKS) with horizontal pod autoscaling and request tracing.
+          - >-
+            Architected a ServiceNow incident resolution platform with defined service boundaries, reusable
+            interfaces, and validation schemas, enabling engineering teams to integrate their data sources.
+          - >-
+            Delivered LangGraph multi-agent workflows across Salesforce, SharePoint, and Confluence. Combined
+            hybrid search with source-grounded answers and evaluated accuracy, groundedness, recall, and
+            latency.
+          - >-
+            Architected a document intelligence platform with Azure Document Intelligence and LLMs, using
+            configuration-driven extraction schemas to support new business lines without code changes.
+          - >-
+            Establish reference architectures and testing playbooks, mentor engineers, and support pre-sales
+            solution design and technical proposals. Responsibilities include system design and data governance.
+      - company: B-yond
+        position: Senior Data Scientist
+        location: Montreal, Canada
+        start_date: 2023-10
+        end_date: 2024-09
+        highlights:
+          - >-
+            Built a RAG application over 50,000+ pages of technical documentation and PostgreSQL data,
+            achieving over 90% precision and recall.
+          - >-
+            Engineered Apache Spark and Databricks pipelines on Azure; developed time-series models for
+            Wi-Fi quality-of-service trends and LDA/BERTopic models for Orange's JIRA issue resolution.
+          - >-
+            Collaborated with architecture and frontend teams to deploy AI applications, using CI/CD pipelines
+            and MLflow model tracking for reliable delivery.
+      - company: National Center of Robotics and Automation
+        position: Research Data Scientist
+        location: Pakistan
+        start_date: 2018-07
+        end_date: 2023-06
+        highlights:
+          - >-
+            Directed cross-functional teams on government projects with budgets exceeding $200,000, delivering
+            2 commercial AI products and securing 3 patents.
+          - >-
+            Built pipelines for 8 million+ data points spanning 11+ hours of sequential data; led temporal
+            CNN development in TensorFlow for human activity recognition.
+    Technical skills:
+      - label: AI architecture & integration
+        details: Solution design, reference architectures, enterprise integration, Python
+          microservices, data governance, SDLC, Scrum
+      - label: Machine learning & generative AI
+        details: Deep learning (CNNs), LLMs, RAG, multi-agent systems, LangGraph, LangChain, MCP,
+          TensorFlow, scikit-learn, Azure Document Intelligence
+      - label: Cloud & data platforms
+        details: Azure, AKS, Docker, Kubernetes, FastAPI, SQLAlchemy, SQL, PostgreSQL, Apache Spark,
+          Databricks
+      - label: MLOps / LLMOps & observability
+        details: CI/CD, GitHub Actions, GitLab pipelines, MLflow, evaluation pipelines, Langfuse,
+          LangSmith, Lumenova, request tracing
+    Certifications:
+      - name: '[Azure AI Apps and Agents Developer Associate](https://learn.microsoft.com/en-ca/users/zohaibaftab-8809/credentials/23600eba6d1a5028)'
+        date: 2026
+        summary: Microsoft | Proctored exam (AI-103)
+      - name: '[Claude Certified Architect - Foundations](https://www.credly.com/badges/9c703fa8-6e09-4598-89f9-21c395654a75/public_url)'
+        date: 2026
+        summary: Anthropic | Proctored exam (CCA-F)
+    Education:
+      - institution: Université de Lyon
+        area: Robotics
+        degree: Ph.D.
+        location: France
+        date: 2012
+        highlights:
+          - Humanoid balance recovery using constrained optimization, quadratic programming, and
+            model predictive control.
+      - institution: École Centrale Nantes
+        area: Automation
+        degree: Master's
+        location: France
+        date: 2009
+    Mentoring & writing:
+      - >-
+        Mentor for a course with UT Austin covering Python, machine learning, and
+        agentic engineering.
+      - >-
+        [Transforming Telco Troubleshooting: Our Journey Building TelcoGPT with RAG](https://www.b-yond.com/post/transforming-telco-troubleshooting-our-journey-building-telcogpt-with-rag)
+  custom_connections:
+    - fontawesome_icon: linkedin
+      placeholder: LinkedIn
+      url: https://www.linkedin.com/in/drzohaib/
+design:
+  theme: moderncv
+  page:
+    size: us-letter
+    top_margin: 0.6in
+    bottom_margin: 0.6in
+    left_margin: 0.65in
+    right_margin: 0.65in
+    show_top_note: false
+    show_footer: true
+  typography:
+    alignment: left
+    font_size:
+      body: 11pt
+      name: 24pt
+      headline: 10pt
+      connections: 9pt
+    line_spacing: 0.55em
+  header:
+    space_below_name: 0.15cm
+    space_below_headline: 0.15cm
+    space_below_connections: 0.3cm
+    connections:
+      display_urls_instead_of_usernames: false
+      show_icons: false
+  section_titles:
+    space_above: 0.35cm
+    space_below: 0.18cm
+  sections:
+    space_between_regular_entries: 0.3cm
+  entries:
+    date_and_location_width: 4.2cm
+    highlights:
+      space_between_items: 0.1cm
+  templates:
+    footer: 'NAME | PAGE_NUMBER / TOTAL_PAGES'
+    experience_entry:
+      main_column: |-
+        **POSITION**
+        COMPANY -- LOCATION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: DATE
+locale:
+  language: english

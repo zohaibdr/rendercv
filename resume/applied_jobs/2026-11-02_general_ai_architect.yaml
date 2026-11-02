@@ -1,0 +1,170 @@
+# yaml-language-server: $schema=../../schema.json
+cv:
+  name: Zohaib Aftab, Ph.D.
+  headline: AI Architect | Agentic Systems & Technical Leadership
+  location: Canada
+  email: zohaib@live.fr
+  phone: '+1 438 451 9966'
+  sections:
+    profile:
+      - >-
+        AI architect and data scientist with 10+ years of experience across industry
+        and research. Leads solution design and hands-on delivery of production
+        agentic systems, RAG applications, and Python services for financial services
+        and telecommunications. Directs engineering teams, mentors developers, and
+        translates business needs into technical architectures. Ph.D. in robotics;
+        works in English and French.
+    experience:
+      - company: Synechron
+        position: Specialist - AI
+        start_date: 2024-09
+        end_date: present
+        summary: AI engineering and solution architecture for US Bank's wealth and asset management
+          teams.
+        highlights:
+          - >-
+            Led delivery of a production AI assistant combining SQL, Swagger API
+            references, Confluence, and SharePoint through a natural language interface.
+            Adopted by 600 internal users, it reduced API discovery time by 90% and
+            saved over $1M in annual operating costs.
+          - >-
+            Built the backend with async FastAPI, SQLAlchemy, and database connection
+            pooling; deployed on Kubernetes with horizontal pod autoscaling and
+            request trace IDs for debugging across services.
+          - >-
+            Combined BM25 and vector search with source-grounded answers; evaluated
+            accuracy, groundedness, recall, and response time.
+          - >-
+            Delivered LangGraph multi-agent workflows connecting Salesforce,
+            SharePoint, and Confluence, with evaluation pipelines to measure performance.
+          - >-
+            Architected a ServiceNow incident resolution platform with defined service
+            boundaries, reusable interfaces, and validation schemas so teams could
+            connect their own data sources.
+          - >-
+            Architected a document intelligence platform using Azure Document
+            Intelligence and LLMs to extract text, tables, and markings. Used
+            configuration-driven schemas to support new business lines without code changes.
+          - >-
+            Mentor junior engineers, establish testing playbooks and reference
+            architectures, and support pre-sales solution design and technical proposals.
+      - company: B-yond
+        position: Senior Data Scientist
+        location: Montreal, Canada
+        start_date: 2023-10
+        end_date: 2024-09
+        highlights:
+          - >-
+            Built a RAG application over 50,000+ pages of technical documentation and
+            a PostgreSQL database, achieving over 90% precision and recall.
+          - >-
+            Engineered Apache Spark and Databricks pipelines on Azure for Wi-Fi
+            performance data; developed time-series models to identify quality-of-service
+            trends and operational patterns.
+          - >-
+            Developed LDA and BERTopic models for Orange's JIRA tickets to identify
+            recurring issues and recommend resolution paths.
+          - >-
+            Collaborated with architecture and frontend teams to deploy AI applications,
+            using CI/CD pipelines and MLflow for model tracking.
+      - company: National Center of Robotics and Automation
+        position: Research Data Scientist
+        location: Pakistan
+        start_date: 2018-07
+        end_date: 2023-06
+        highlights:
+          - >-
+            Directed engineering and research teams on government projects with budgets
+            exceeding $200,000, delivering 2 commercial AI products and securing 3 patents.
+          - >-
+            Built pipelines for over 8 million data points spanning 11+ hours of
+            sequential data to support predictive modeling.
+          - >-
+            Led the implementation of temporal CNN architectures in TensorFlow
+            for human activity recognition.
+    Technical skills:
+      - label: AI & retrieval
+        details: LangGraph, LangChain, RAG, hybrid search, MCP, Claude and Microsoft agent SDKs,
+          Azure Document Intelligence
+      - label: Backend & deployment
+        details: Python, FastAPI, SQLAlchemy, SQL, PostgreSQL, Docker, Kubernetes, AKS, GitHub
+          Actions, GitLab CI/CD, WebSocket APIs
+      - label: Data & machine learning
+        details: Apache Spark, Databricks, Pandas, scikit-learn, TensorFlow, Keras, MLflow, R
+      - label: Evaluation & observability
+        details: Langfuse, LangSmith, Lumenova, structured logging, request tracing
+    education:
+      - institution: Université de Lyon
+        area: Robotics
+        degree: Ph.D.
+        location: France
+        date: 2012
+        highlights:
+          - Humanoid balance recovery using constrained optimization, quadratic programming, and
+            model predictive control.
+      - institution: École Centrale Nantes
+        area: Automation
+        degree: Master's
+        location: France
+        date: 2009
+    certifications:
+      - name: '[Azure AI Apps and Agents Developer Associate](https://learn.microsoft.com/en-ca/users/zohaibaftab-8809/credentials/23600eba6d1a5028)'
+        date: 2026
+        summary: Microsoft | Proctored exam (AI-103)
+      - name: '[Claude Certified Architect - Foundations](https://www.credly.com/badges/9c703fa8-6e09-4598-89f9-21c395654a75/public_url)'
+        date: 2026
+        summary: Anthropic | Proctored exam (CCA-F)
+    Mentoring & writing:
+      - >-
+        Mentor for a course with UT Austin covering Python, machine learning, and
+        agentic engineering.
+      - >-
+        [Transforming Telco Troubleshooting: Our Journey Building TelcoGPT with RAG](https://www.b-yond.com/post/transforming-telco-troubleshooting-our-journey-building-telcogpt-with-rag)
+  custom_connections:
+    - fontawesome_icon: linkedin
+      placeholder: LinkedIn
+      url: https://www.linkedin.com/in/drzohaib/
+design:
+  theme: moderncv
+  page:
+    size: us-letter
+    top_margin: 0.6in
+    bottom_margin: 0.6in
+    left_margin: 0.65in
+    right_margin: 0.65in
+    show_top_note: false
+    show_footer: true
+  typography:
+    alignment: left
+    font_size:
+      body: 11pt
+      name: 24pt
+      headline: 10pt
+      connections: 9pt
+    line_spacing: 0.55em
+  header:
+    space_below_name: 0.15cm
+    space_below_headline: 0.15cm
+    space_below_connections: 0.3cm
+    connections:
+      display_urls_instead_of_usernames: false
+  section_titles:
+    space_above: 0.35cm
+    space_below: 0.18cm
+  sections:
+    space_between_regular_entries: 0.3cm
+  entries:
+    date_and_location_width: 4.2cm
+    highlights:
+      space_between_items: 0.1cm
+  templates:
+    footer: 'NAME | PAGE_NUMBER / TOTAL_PAGES'
+    experience_entry:
+      main_column: |-
+        **POSITION**
+        COMPANY -- LOCATION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: DATE
+locale:
+  language: english
